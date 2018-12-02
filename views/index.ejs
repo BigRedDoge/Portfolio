@@ -1,0 +1,187 @@
+
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/javascript/main.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="80">
+    <!-- Navbar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md fixed-top" id="nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home" id="home-nav">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="#about" id="about-nav">About</a>
+          </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio-text" id="portfolio-nav">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <!-- Home -->
+    <div class="container-fluid" id="home">
+      <div class="row">
+        <div class="col">
+          <div id="background-parallax">
+            <div id="header">
+              <h1> My Name is Sean Clifford </h1>
+              <h2 id='typewriter-before'> I am a </h2>
+              <h2 id='typewriter-after'></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div id="about">
+            <h2> About Me </h2>
+            <p1>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="portfolio">
+      <div class="row">
+        <div class="col">
+          <div id="portfolio-parallax">
+            <div id="portfolio-header">
+              <h1>Portfolio</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!-- Portfolio Header -->
+    <div class="container-fluid" id="portfolio-text">
+      <h1 id="portfolio-title">Portfolio</h1>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Languages">
+            <h1><b>Programming Languages:</b></h1>
+            <ul>
+              <li>Javascript</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>HTML/CSS</li>
+              <li>C++</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Katos">
+            <h1><b>Katos.Trade — HTML/CSS, Javascript, SQL</b><h1>
+            <p>
+              &emsp;I used to play a game called CS:GO from which I started trading in-game items for a profit.  After some time playing and trading I became knowledgeable about niche item pricing and would get requests from other players on how to price their items.  I then realized that no pricing tools existed.  I wanted to be the first to create such a tool but had never coded anything.  I spent the following nights and weekends learning how to code with html and css until I was able to create a basic website.  I spent the next several weeks improving the site until I was able to launch an alpha version of Katos.Trade to the public.  I told a few online friends that it was up and to my surprise hundreds of people started visiting the site every week.   As usage grew, I continued to add features such as scam prevention tools and a bot account you could friend in the game and you could send chat messages for information. I ran the site until major changes to the game rendered it obsolete.  Despite the disappointment, it introduced me to coding.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="OPSniper">
+            <h1><b>OPSniper.Trade — HTML/CSS, Javascript, SQL</b><h1>
+            <p>
+              &emsp;Building on my experience developing Katos.Trade I soon went on to create OPSniper.Trade collaboratively with an online friend.  Where Katos.Trade was a site created to provide a pricing structure for in-game items, OPSniper.Trade was created to profit in the trade of these items.  Utilizing my OPSniper.Trade site I turned a $100 investment into approximately $8000.
+              <br><br>
+              OPSkins was a public site for buying and selling CS:GO in-game items.  Often times, items were listed much lower than their actual value.  I created a bot that would pretend to be a user and track all newly listed items for trade.  We created an SQL database of thousands of items where we used historical trading prices, visual quality, among many other parameters to establish a ranking and price for each item. These newly listed items would automatically be compared to the database tables.  If it met one of these conditions, it would be sent to my Katos.Trade API for price checking.  The api would return the pattern ID and other valuable information.  If the item was listed at a price deemed profitable it was pushed to our site. The site would then send us a notification of this listing, which we could purchase and immediately list for resale.  I had a page that tracked our purchases, sales, and profits. Unfortunately, OPSkins is no longer affiliated with CS:GO due to a restructuring of the company, again rendering my site obsolete.  However, the experience of creating and integrating bots, databases, API’s and a website along with learning new languages was fantastic and proved to be very profitable.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="AI">
+            <h1><b>Machine Learning and Artificial Intelligence — Python, Java</b><h1>
+            <p>
+              &emsp;Creating a Neural Network: I created a neural network in python to take in images of written numbers and output the correct number classification.  It had multiple layers of neurons that would process the image’s pixels.  Each neuron takes in inputs from all the ones from the previous layer, applies weights to each one, applies the activation function (sigmoid in this case), and sends the output to the next layer.  After it would use gradient descent to calculate the error of the output and adjust each neuron’s weights accordingly After training with thousands of pictures of hand written numbers, the neural network was able to distinguish the numbers with a high level of accuracy.
+            </p>
+            <p>
+              &emsp;Training Dots with Natural Selection: I made a “game” for dots that set up barriers around a path.  It would then use natural selection to pick out the best dots from each generation to use for the next gene pool.  The following generation would then spawn 100 new dots that would try their best to reach the goal.  A dot’s score would increase the further it got to the goal without dying (hitting the walls or taking too long).  All the scores were added up and then random numbers in the score range were generated to pick the next parents.  This meant the higher the score, the greater the chance of being selected.  Each dot also had a chance of mutating from its parent.  This was a 5% chance that a step direction was randomized.  After a dozen or two generations, the dots would finally learn how to reach the goal without dying.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Alarm">
+            <h1><b>Remote Alarm Clock — C++</b><h1>
+            <p>
+              &emsp;Getting out of bed in the morning is difficult for many, including myself.  I realized that I could solve this problem with an alarm clock that has a wireless “off” button located anywhere but within reach of the bed.  A distant “off” button forces the “snooze button abuser” to get out of bed and turn the alarm off with the wireless “off” button placed anywhere in the house.  This of course rests on the principle that once you are out of bed you have a better chance of not going back to sleep.  This was the first project that I utilized an arduino (small programmable microcontroller).  In order to code the arduino I taught myself C++ to control the clock and remote.  This project has introduced me C++ and given me some insight into what can be accomplished using arduinos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Reddit">
+            <h1><b>Reddit Bot — Javascript, Python</b><h1>
+            <p>
+              &emsp;I made a <a href="https://www.reddit.com/user/ThePrequelMemesBot?sort=top">bot on Reddit</a>, u/ThePrequelMemesBot, that used the Reddit API to look at new comments across the site.  If a user commented anywhere on Reddit using a Star Wars quote, It would respond back with a corresponding quote response.  Over the course of the one month that I had it running, it amassed a total of nearly 80,000 karma (likes).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Rubiks">
+            <h1><b>Rubik’s Cube Solver — Javascript, Python</b><h1>
+            <p>
+              &emsp;I set out to make a Rubik’s cube solver without looking up how to create it.  I took what I knew about solving cubes and used that to code the solution algorithm.  For scanning the unsolved cube, I used OpenCV, an open source computer vision library, to look at pictures taken of each side.  It would process the images recognizing the colors and patterns and then display the step by step moves needed to solve the Rubik’s cube.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Guitar">
+            <h1><b>Guitar Hero Player Bot — Python</b><h1>
+            <p>
+              &emsp;If you remember Guitar Hero from years ago, I recently found an online version that you can play on your computer.  I thought it might be interesting to create a code to play the game perfectly?  With OpenCV, I created a code that decides which notes to play based on what it sees on your screen.  The final version was able to play the hardest song in the game on expert difficulty and complete it with 100% accuracy.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="Drones">
+            <h1><b>Building Drones</b><h1>
+            <p>
+              &emsp;Over the past few years, I have become involved in the hobby of building and flying quadcopters and drones.  I have built drones ranging in size from a few inches long to those measuring 3 feet wide.  I have put cameras on the drones which allows me to fly FPV (first person view) using a set of fpv goggles (similar to VR goggles).  My brother and I have also built racing quadcopters with FPV capable of reaching speeds of 60 mph.  I have a small 3D printer which I use to print out models to make small frames and other parts.  My brother and I also started a club at school, dedicated to teaching other students how to build and fly drones.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="portfolio-item" id="First">
+            <h1><b>First Robotics</b><h1>
+            <p>
+              &emsp;This season marks my third year on the KO robotics team (Team #36).  I am the co-captain and the lead builder on my team.  In that capacity,  I assign responsibilities and deadlines, design and print CAD parts for the robot, program and teach less experienced members. For autonomous this year, I’ve made a live camera tracker that distinguishes between certain blocks and directs the robot to hit the correct one.
+              <br><br>
+              It is a goal of mine to make sure everyone on my team is learning and working together as we build, despite varying levels of experience. I've also mentored kids on an FLL team in Hartford and introduced them to the basics of robotics and First.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <div class="footer"></div>
+</html>
